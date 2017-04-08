@@ -1,0 +1,212 @@
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 44px;
+  font-size: 16px;
+  margin: 0 15px; }
+  .header i {
+    line-height: 44px; }
+
+.section {
+  flex: 1;
+  overflow-y: scroll; }
+  .section .banner {
+    width: 100%; }
+    .section .banner img {
+      width: 100%; }
+  .section .box h3 {
+    height: 45px;
+    line-height: 45px;
+    color: #65a6f4;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 15px; }
+  .section .box .con h4 {
+    font-size: 14px;
+    padding-left: 15px; }
+  .section .box .con p {
+    padding-left: 35px;
+    padding-right: 15px; }
+  .section .box .ka dl {
+    text-align: center; }
+    .section .box .ka dl dt {
+      height: 50px;
+      background: #4f99f2;
+      line-height: 50px;
+      color: #fff;
+      font-size: 15px;
+      font-weight: normal;
+      border-top: #eee 5px solid;
+      margin-bottom: 20px; }
+    .section .box .ka dl dd img {
+      width: 160px;
+      height: 210px; }
+  .section .box .sha h5 {
+    padding-left: 15px;
+    height: 44px;
+    line-height: 44px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee; }
+  .section .box .sha ul {
+    height: 43px;
+    padding: 5px 0; }
+    .section .box .sha ul li {
+      width: 46%;
+      float: left;
+      text-align: center; }
+      .section .box .sha ul li:nth-child(1) {
+        border-right: 1px solid #dadada; }
+      .section .box .sha ul li:nth-child(3) {
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 10px; }
+      .section .box .sha ul li:nth-child(4) {
+        text-align: left;
+        padding-top: 10px;
+        padding-top: 10px;
+        padding-left: 10px; }
+      .section .box .sha ul li p {
+        line-height: 20px;
+        margin-bottom: 0; }
+  .section .box .dls dl {
+    clear: both;
+    padding: 15px; }
+    .section .box .dls dl dt {
+      float: left; }
+      .section .box .dls dl dt img {
+        width: 45px;
+        height: 45px; }
+    .section .box .dls dl dd {
+      float: left;
+      margin-left: 5px; }
+      .section .box .dls dl dd p {
+        margin-bottom: 0;
+        margin-top: 0px; }
+  .section .box .dls ol li {
+    clear: both;
+    padding-left: 15px;
+    margin-bottom: 0; }
+    .section .box .dls ol li:nth-child(1) {
+      padding-top: 15px; }
+    .section .box .dls ol li:nth-child(2) {
+      padding-bottom: 15px; }
+    .section .box .dls ol li span {
+      padding-right: 15px; }
+    .section .box .dls ol li b {
+      font-weight: normal; }
+  .section .box .ditu dl {
+    padding: 0 10px; }
+    .section .box .ditu dl dd {
+      margin-left: 0px;
+      padding: 0 10px; }
+      .section .box .ditu dl dd img {
+        width: 100%; }
+  .section .box .yuan {
+    color: #4f99f2; }
+    .section .box .yuan h6 {
+      text-align: center;
+      font-size: 15px; }
+    .section .box .yuan p {
+      text-align: center; }
+      .section .box .yuan p i {
+        margin: 0 5px; }
+    .section .box .yuan .nav {
+      display: flex;
+      flex-wrap: wrap; }
+      .section .box .yuan .nav dl {
+        width: 50%;
+        text-align: center; }
+        .section .box .yuan .nav dl dt img {
+          width: 80px;
+          height: 80px; }
+        .section .box .yuan .nav dl dd {
+          margin-left: 0;
+          padding-top: 10px; }
+  .section .box .chan h3 {
+    text-align: center;
+    font-weight: normal;
+    line-height: 30px;
+    height: 30px; }
+  .section .box .chan p {
+    line-height: 44px;
+    text-align: center; }
+    .section .box .chan p span {
+      width: 50%;
+      display: inline-block;
+      text-align: center; }
+      .section .box .chan p span i {
+        padding-right: 5px; }
+      .section .box .chan p span em {
+        float: right;
+        line-height: 44px;
+        padding-right: 10px; }
+  .section .box .chan dl {
+    text-align: center; }
+    .section .box .chan dl dt {
+      width: 100%; }
+      .section .box .chan dl dt img {
+        width: 125px;
+        height: 163px; }
+    .section .box .chan dl dd {
+      padding: 0 35px;
+      padding-top: 15px; }
+  .section .box .chan article {
+    padding: 0 15px; }
+  .section .box .gou h3 {
+    text-align: center;
+    font-weight: normal;
+    line-height: 30px;
+    height: 30px; }
+  .section .box .gou ol {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px; }
+    .section .box .gou ol li {
+      text-align: center; }
+  .section .box .gou dl {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px; }
+    .section .box .gou dl dt {
+      float: left;
+      line-height: 30px;
+      font-size: 14px;
+      font-weight: normal; }
+    .section .box .gou dl dd {
+      float: right;
+      line-height: 30px;
+      font-size: 20px; }
+  .section .box .gai h3 {
+    text-align: center;
+    font-weight: normal; }
+  .section .box .gai .len {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px; }
+    .section .box .gai .len dl {
+      width: 32%;
+      padding-left: 2px; }
+      .section .box .gai .len dl dt img {
+        width: 102px;
+        height: 102px; }
+      .section .box .gai .len dl dd {
+        margin-left: 0px; }
+        .section .box .gai .len dl dd p i {
+          margin-left: 5px;
+          color: #4f99f2; }
+  .section .box .foo {
+    text-align: center;
+    line-height: 50px;
+    background: #eeeeee; }
+
+/*# sourceMappingURL=index.css.map */
